@@ -1,5 +1,5 @@
 # Course Query Example
-Uses Node.JS, Express.JS, and Joi to handle CRUD operations for course queries.
+Uses Node.JS, Express.JS, and Joi to handle backend CRUD operations for a course querying service:
 1. See courses (get)
 2. Update a course (push)
 3. Add a course (put)
@@ -12,4 +12,5 @@ Some things to note:
 - Joi is version 17.1.1 and is used to help validate client requests (see index.js for implementation within handlers).
 - Postman is a Google Chrome extentions that is used to send example requests and test error codes.
 - Don't forget to install NPM in local repository.
+- Original idea by Programming with Mosh.
 
