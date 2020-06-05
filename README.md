@@ -1,9 +1,9 @@
 # Course Query Example
 Uses Node.JS, Express.JS, and Joi to handle backend CRUD operations for a course querying service:
-1. See courses (get)
-2. Update a course (push)
-3. Add a course (put)
-4. Remove a course (delete)
+1. (C)reate: add a course with PUT.
+2. (R)ead: see courses with GET.
+3. (U)pdate: update a course with PUSH.
+4. (D)elete: remove a course with DELETE.
 
 Some things to note:
 - Does not use a database; is hardcoded.
