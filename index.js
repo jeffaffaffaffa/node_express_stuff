@@ -3,7 +3,7 @@ const express = require('express');
 const app = express(); //represents our application
 //has a lot of usefull methods like get, post, put, delete
 
-app.use(express.json()); //need this so express can json
+app.use(express.json()); //need this so express can use json
 
 const courses = [
     {id: 1, name: 'course1'},
