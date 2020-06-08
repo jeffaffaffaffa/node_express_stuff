@@ -11,7 +11,7 @@ const courses = [
     {id: 3, name: 'course3'}
 ]
 
-app.get('/', (req, res) => { //this is how you defines a route
+app.get('/', (req, res) => { //this is how you defines a route. routes correspond to what you see in the url
     res.send('Hello World!!!');
 }); //get takes two arguments: path and callback function
 
@@ -95,6 +95,7 @@ app.delete('/api/courses/:id', (req, res) => {
 });
 
 //all of the validation logic in one place, using Joi
+//for this example, it needs to be a string of min 3 characters and is required
 function validateCourse(course) {
     const schema = Joi.object({
         name: Joi.string().min(3).required()

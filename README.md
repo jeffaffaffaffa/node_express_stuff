@@ -1,5 +1,5 @@
-# Course Query Example
-Uses Node.JS, Express.JS, and Joi to handle backend CRUD operations for a course querying service:
+# Course Query Example (RESTful API):
+Uses Node.JS, Express.JS, and Joi to handle backend CRUD operations for a simple course querying service:
 1. (C)reate: add a course with PUT.
 2. (R)ead: see courses with GET.
 3. (U)pdate: update a course with PUSH.
@@ -13,5 +13,5 @@ Some things to note:
 - Postman is a Google Chrome extention that is used to send example requests and test error codes.
 - Don't forget to install NPM in local repository.
 - .gitignore is handy to reduce repo clutter.
-- Original idea by Programming with Mosh.
+- Original idea by Programming with Mosh: https://www.youtube.com/watch?v=pKd0Rpw7O48
 
